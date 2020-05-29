@@ -1,0 +1,184 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "0c5560730a802e9869fdf29b99879f85",
+    "packages": [
+        {
+            "name": "greenpeace/planet4-child-theme-netherlands",
+            "version": "v4.3.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/greenpeace/planet4-child-theme-netherlands.git",
+                "reference": "ee9124d413e283f300a8a722119206f219de19f9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/greenpeace/planet4-child-theme-netherlands/zipball/ee9124d413e283f300a8a722119206f219de19f9",
+                "reference": "ee9124d413e283f300a8a722119206f219de19f9",
+                "shasum": ""
+            },
+            "require-dev": {
+                "dealerdirect/phpcodesniffer-composer-installer": "^0.4.0",
+                "squizlabs/php_codesniffer": "3.4.*",
+                "wp-coding-standards/wpcs": "2.1.*"
+            },
+            "type": "wordpress-theme",
+            "extra": {
+                "installer-paths": {
+                    "../../plugins/{$name}/": [
+                        "wpackagist-plugin/*",
+                        "type:wordpress-plugin"
+                    ]
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Konstantinos Kokkorogiannis",
+                    "email": "kkokkoro@greenpeace.org"
+                },
+                {
+                    "name": "Oscar Keur",
+                    "email": "okeur@greenpeace.org"
+                }
+            ],
+            "description": "Child theme for Netherlands for the Planet 4 Wordpress project",
+            "time": "2020-05-28T12:20:53+00:00"
+        },
+        {
+            "name": "greenpeace/planet4-gpnl-plugin-gutenberg-blocks",
+            "version": "1.7.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/greenpeace/planet4-gpnl-plugin-gutenberg-blocks.git",
+                "reference": "b6c79baaadf4dc3c1dc906b61574155f757d4050"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/greenpeace/planet4-gpnl-plugin-gutenberg-blocks/zipball/b6c79baaadf4dc3c1dc906b61574155f757d4050",
+                "reference": "b6c79baaadf4dc3c1dc906b61574155f757d4050",
+                "shasum": ""
+            },
+            "require-dev": {
+                "dealerdirect/phpcodesniffer-composer-installer": "^0.4.0",
+                "phpmd/phpmd": "^2.7",
+                "phpunit/phpunit": "^6.2",
+                "squizlabs/php_codesniffer": "^3.5",
+                "stevegrunwell/phpunit-markup-assertions": "^1.2",
+                "wp-coding-standards/wpcs": "^2.1.0"
+            },
+            "type": "wordpress-plugin",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Greenpeace Netherlands",
+                    "email": "planet4-group@greenpeace.org"
+                },
+                {
+                    "name": "Oscar Keur",
+                    "email": "okeur@greenpeace.org"
+                },
+                {
+                    "name": "Dirk Faber",
+                    "email": "dfaber@greenpeace.org"
+                }
+            ],
+            "description": "This repository contains the WordPress plugin that provides the gutenberg blocks for Planet4 project",
+            "time": "2020-05-28T12:23:15+00:00"
+        },
+        {
+            "name": "greenpeace/planet4-master-theme",
+            "version": "v1.92",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/greenpeace/planet4-master-theme.git",
+                "reference": "dfa83480751f312322dd0003374648ef817f4de7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/greenpeace/planet4-master-theme/zipball/dfa83480751f312322dd0003374648ef817f4de7",
+                "reference": "dfa83480751f312322dd0003374648ef817f4de7",
+                "shasum": ""
+            },
+            "require-dev": {
+                "dealerdirect/phpcodesniffer-composer-installer": "^0.5.0",
+                "phpunit/phpunit": "^6.2",
+                "squizlabs/php_codesniffer": "^3.5.3",
+                "stevegrunwell/phpunit-markup-assertions": "^1.2",
+                "wp-coding-standards/wpcs": "^2.2.0"
+            },
+            "type": "wordpress-theme",
+            "extra": {
+                "installer-paths": {
+                    "vendor/plugins/{$name}/": [
+                        "type:wordpress-plugin"
+                    ]
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Greenpeace International",
+                    "email": "planet4-group@greenpeace.org"
+                }
+            ],
+            "description": "Master theme for the Planet 4 Wordpress project",
+            "time": "2020-05-28T06:43:41+00:00"
+        },
+        {
+            "name": "greenpeace/planet4-plugin-gutenberg-blocks",
+            "version": "v0.29",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/greenpeace/planet4-plugin-gutenberg-blocks.git",
+                "reference": "70c41fe35c20d0fd503827728c8a456e842777ee"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/greenpeace/planet4-plugin-gutenberg-blocks/zipball/70c41fe35c20d0fd503827728c8a456e842777ee",
+                "reference": "70c41fe35c20d0fd503827728c8a456e842777ee",
+                "shasum": ""
+            },
+            "require-dev": {
+                "dealerdirect/phpcodesniffer-composer-installer": "^0.5.0",
+                "phpunit/phpunit": "^6.2",
+                "squizlabs/php_codesniffer": "^3.5.3",
+                "stevegrunwell/phpunit-markup-assertions": "^1.2",
+                "wp-coding-standards/wpcs": "^2.2.0"
+            },
+            "type": "wordpress-plugin",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Greenpeace International",
+                    "email": "planet4-group@greenpeace.org"
+                }
+            ],
+            "description": "This repository contains the WordPress plugin that provides the gutenberg blocks for Planet4 project",
+            "time": "2020-05-28T06:48:14+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

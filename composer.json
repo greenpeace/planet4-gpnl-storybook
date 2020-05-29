@@ -1,0 +1,25 @@
+{
+    "name": "greenpeace/planet4-gpnl-storybook",
+    "description": "Component styleguide for GPNL.",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Greenpeace Netherlands",
+            "email": "planet4-group@greenpeace.org"
+        },
+        {
+            "name": "Oscar Keur",
+            "email": "okeur@greenpeace.org"
+        },
+        {
+            "name": "Dirk Faber",
+            "email": "dfaber@greenpeace.org"
+        }
+    ],
+    "require": {
+        "greenpeace/planet4-child-theme-netherlands": "^4.2",
+        "greenpeace/planet4-gpnl-plugin-gutenberg-blocks": "^1.7",
+        "greenpeace/planet4-master-theme": "^1.92",
+        "greenpeace/planet4-plugin-gutenberg-blocks": "^0.29.0"
+    }
+}
