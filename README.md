@@ -18,8 +18,9 @@ This will run a local instance for development purposes.
  ```
  yarn build-storybook
 ```
-This will build the storybook configured in the Storybook directory into a static web app and place it inside the directory `storybook-static`. Now you can deploy the content in the `storybook-static` directory wherever you want. To test it locally run: 
-
+This will build the storybook configured in the Storybook directory into a static web app and place it inside the directory `storybook-static`. Now you can deploy the content in the `storybook-static` directory wherever you want.
 
 ## Github Pages
-The static app is hosted on Github Pages: https://greenpeace.github.io/planet4-gpnl-storybook/. In the settings on Github, the github pages is linked to the branch `gh-pages`, which in turn is a subtree of the directory `storybook-static`. For more information on how this works see https://gist.github.com/cobyism/4730490. 
+The static app is hosted on Github Pages: https://greenpeace.github.io/planet4-gpnl-storybook/. In the settings on Github, the github pages is linked to the branch `gh-pages`, which in turn is a subtree of the directory `storybook-static`. To push the static app to Github Pages run ` git subtree push --prefix storybook-static origin gh-pages`. 
+
+For more information on how this works see https://gist.github.com/cobyism/4730490. 
