@@ -3,7 +3,7 @@ import { withLinks } from '@storybook/addon-links';
 import general from './readme_general.html';
 
 export default {
-  title: 'ReadMe',
+  title: 'Read Me',
   decorators: [withLinks],
 };
 
