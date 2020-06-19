@@ -1,4 +1,5 @@
 import '!style-loader!css-loader!sass-loader!../../vendor/greenpeace/planet4-child-theme-netherlands/assets/css/scss/style.scss';
+import docs from './colors_docs.mdx';
 
 let style = document.createElement('style');
 style.innerHTML = `
@@ -16,15 +17,20 @@ style.innerHTML = `
 
 document.head.appendChild(style);
 
-export const Colors = () =>
+export const WebColors = () =>
     `
-<h1>Main colors</h1>
-<div style="display: flex; margin-bottom: 32px">
+<h1>Web Colors</h1>
+
+<h2 style="margin: 32px 0 6px">Primary</h2>
+<div style="display: flex">
 <div class="color-square" style="background-color: #66cc00">light green <br> #66cc00</div>
 <div class="color-square" style="background-color: #003300; color: white">dark green <br> #003300</div>
-<div class="color-square" style="background-color: #ee562d; color: black">orange <br> #ee562d</div>
+<div class="color-square" style="background-color: #f36d3a; color: white">orange <br> #f36d3a</div>
+<div class="color-square" style="background-color: #ffffff">white <br> #ffffff</div>
+<div class="color-square" style="background-color: #000000; color: white">black <br> #000000</div>
 </div>
-<h2>Secondary colors</h2>
+
+<h2 style="margin: 32px 0 6px">Secondary</h2>
 <div style="display: flex">
 <div class="color-square" style="background-color: #323842; color: white">anthracite <br> #323842</div>
 <div class="color-square" style="background-color: #5c6978; color: white">slate grey <br> #5c6978</div>
@@ -37,12 +43,21 @@ export const Colors = () =>
 <div class="color-square" style="background-color: #044465; color: white">dark blue <br> #044465</div>
 <div class="color-square" style="background-color: #698e9c; color: black">sea blue <br> #698e9c</div>
 <div class="color-square" style="background-color: #aec7ca; color: black">sky blue <br> #aec7ca</div>
-<div class="color-square" style="background-color: #d7e2e4; color: black">light-blue <br> #d7e2e4</div>
+<div class="color-square" style="background-color: #d7e2e4; color: black">light blue <br> #d7e2e4</div>
+</div>
+
+<h2 style="margin: 32px 0 6px">Hover</h2>
+<div style="display: flex">
+<div class="color-square" style="background-color: #1d8c61; color: white">hover green <br> #1d8c61</div>
+<div class="color-square" style="background-color: #ee562d; color: white">hover orange <br> #ee562d</div>
+<div class="color-square" style="background-color: #c02a0c; color: white">hover red <br> #c02a0c</div>
 </div>
 `;
 
 export default {
     title: 'Components/Colors',
+    parameters: {docs: {page: docs}},
+
 };
 
 
