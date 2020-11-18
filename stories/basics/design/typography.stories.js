@@ -1,4 +1,4 @@
-import '!style-loader!css-loader!sass-loader!../../vendor/greenpeace/planet4-child-theme-netherlands/assets/css/scss/style.scss';
+import '!style-loader!css-loader!sass-loader!../../../vendor/greenpeace/planet4-child-theme-netherlands/assets/css/scss/style.scss';
 import docs from './typography_docs.mdx';
 
 let style = document.createElement('style');
@@ -155,7 +155,7 @@ export const Typography = () =>
 `;
 
 export default {
-    title: 'Base/Base',
+    title: 'Basics/Design',
     parameters: {docs: {page: docs}},
 };
 

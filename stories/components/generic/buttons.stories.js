@@ -5,5 +5,5 @@ export const ButtonSecondary = () =>
     '<a class="btn btn-secondary">This is a secondary button</a>';
 
 export default {
-    title: 'Components/Buttons',
+    title: 'Components/Generic/Buttons',
 };
