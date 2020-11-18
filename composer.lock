@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "0c5560730a802e9869fdf29b99879f85",
+    "content-hash": "fc2a0abe0eebc65ac86ae14dd9ba06b8",
     "packages": [
         {
             "name": "greenpeace/planet4-child-theme-netherlands",
-            "version": "v4.3.0",
+            "version": "dev-develop",
             "source": {
                 "type": "git",
                 "url": "https://github.com/greenpeace/planet4-child-theme-netherlands.git",
-                "reference": "ee9124d413e283f300a8a722119206f219de19f9"
+                "reference": "dc988bbcfa304d53ec8a7040c9fd4bbf2a21b092"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/greenpeace/planet4-child-theme-netherlands/zipball/ee9124d413e283f300a8a722119206f219de19f9",
-                "reference": "ee9124d413e283f300a8a722119206f219de19f9",
+                "url": "https://api.github.com/repos/greenpeace/planet4-child-theme-netherlands/zipball/dc988bbcfa304d53ec8a7040c9fd4bbf2a21b092",
+                "reference": "dc988bbcfa304d53ec8a7040c9fd4bbf2a21b092",
                 "shasum": ""
             },
             "require-dev": {
@@ -49,20 +49,20 @@
                 }
             ],
             "description": "Child theme for Netherlands for the Planet 4 Wordpress project",
-            "time": "2020-05-28T12:20:53+00:00"
+            "time": "2020-06-02T14:45:44+00:00"
         },
         {
             "name": "greenpeace/planet4-gpnl-plugin-gutenberg-blocks",
-            "version": "1.7.3",
+            "version": "dev-develop",
             "source": {
                 "type": "git",
                 "url": "https://github.com/greenpeace/planet4-gpnl-plugin-gutenberg-blocks.git",
-                "reference": "b6c79baaadf4dc3c1dc906b61574155f757d4050"
+                "reference": "c4410fc5d81c6f6913a4ce935a18510f4a142548"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/greenpeace/planet4-gpnl-plugin-gutenberg-blocks/zipball/b6c79baaadf4dc3c1dc906b61574155f757d4050",
-                "reference": "b6c79baaadf4dc3c1dc906b61574155f757d4050",
+                "url": "https://api.github.com/repos/greenpeace/planet4-gpnl-plugin-gutenberg-blocks/zipball/c4410fc5d81c6f6913a4ce935a18510f4a142548",
+                "reference": "c4410fc5d81c6f6913a4ce935a18510f4a142548",
                 "shasum": ""
             },
             "require-dev": {
@@ -97,16 +97,16 @@
         },
         {
             "name": "greenpeace/planet4-master-theme",
-            "version": "v1.92",
+            "version": "v1.93.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/greenpeace/planet4-master-theme.git",
-                "reference": "dfa83480751f312322dd0003374648ef817f4de7"
+                "reference": "358b5f4abc40fba1cb20d6bf1c411ee0e0cb6aa8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/greenpeace/planet4-master-theme/zipball/dfa83480751f312322dd0003374648ef817f4de7",
-                "reference": "dfa83480751f312322dd0003374648ef817f4de7",
+                "url": "https://api.github.com/repos/greenpeace/planet4-master-theme/zipball/358b5f4abc40fba1cb20d6bf1c411ee0e0cb6aa8",
+                "reference": "358b5f4abc40fba1cb20d6bf1c411ee0e0cb6aa8",
                 "shasum": ""
             },
             "require-dev": {
@@ -135,7 +135,7 @@
                 }
             ],
             "description": "Master theme for the Planet 4 Wordpress project",
-            "time": "2020-05-28T06:43:41+00:00"
+            "time": "2020-06-03T07:09:09+00:00"
         },
         {
             "name": "greenpeace/planet4-plugin-gutenberg-blocks",
@@ -176,9 +176,13 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "greenpeace/planet4-child-theme-netherlands": 20,
+        "greenpeace/planet4-gpnl-plugin-gutenberg-blocks": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],
-    "platform-dev": []
+    "platform-dev": [],
+    "plugin-api-version": "1.1.0"
 }

@@ -8,5 +8,5 @@ export const Heading2 = () =>
     '<h2>Hello World</h2>';
 
 export default {
-    title: 'Components/Headings',
+    title: 'Components/Generic/Headings',
 };

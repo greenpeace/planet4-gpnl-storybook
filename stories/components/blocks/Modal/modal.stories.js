@@ -1,6 +1,6 @@
 // Hero Image
-import '!style-loader!css-loader!sass-loader!../../../vendor/greenpeace/planet4-gpnl-plugin-gutenberg-blocks/assets/src/blocks/HeroImage/scss/hero-image.scss';
-import hero_image_docs from './hero_image_docs.mdx';
+import '!style-loader!css-loader!sass-loader!../../../../vendor/greenpeace/planet4-gpnl-plugin-gutenberg-blocks/assets/src/blocks/HeroImage/scss/hero-image.scss';
+import modal_docs from './modal_docs.mdx';
 
 import {
     array,
@@ -37,7 +37,7 @@ export const heroImage = () => {
 }
 
 export default {
-    title: 'Gutenberg Blocks/Hero Image',
-    parameters: {docs: {page: hero_image_docs}},
+    title: 'Components/Gutenberg Blocks/Modal',
+    parameters: {docs: {page: modal_docs}},
     decorators: [withKnobs],
 };

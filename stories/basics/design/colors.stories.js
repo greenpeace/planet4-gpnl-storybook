@@ -1,4 +1,4 @@
-import '!style-loader!css-loader!sass-loader!../../vendor/greenpeace/planet4-child-theme-netherlands/assets/css/scss/style.scss';
+import '!style-loader!css-loader!sass-loader!../../../vendor/greenpeace/planet4-child-theme-netherlands/assets/css/scss/style.scss';
 import docs from './colors_docs.mdx';
 
 let style = document.createElement('style');
@@ -55,7 +55,7 @@ export const WebColors = () =>
 `;
 
 export default {
-    title: 'Components/Colors',
+    title: 'Basics/Design/Colors',
     parameters: {docs: {page: docs}},
 
 };

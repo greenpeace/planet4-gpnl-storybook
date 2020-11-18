@@ -17,8 +17,8 @@
         }
     ],
     "require": {
-        "greenpeace/planet4-child-theme-netherlands": "^4.2",
-        "greenpeace/planet4-gpnl-plugin-gutenberg-blocks": "^1.7",
+        "greenpeace/planet4-child-theme-netherlands": "dev-develop",
+        "greenpeace/planet4-gpnl-plugin-gutenberg-blocks": "dev-develop",
         "greenpeace/planet4-master-theme": "^1.92",
         "greenpeace/planet4-plugin-gutenberg-blocks": "^0.29.0"
     }

@@ -1,4 +1,4 @@
-import '!style-loader!css-loader!sass-loader!../../../vendor/greenpeace/planet4-gpnl-plugin-gutenberg-blocks/assets/src/blocks/Collapsible/scss/collapsible.scss';
+import '!style-loader!css-loader!sass-loader!../../../../vendor/greenpeace/planet4-gpnl-plugin-gutenberg-blocks/assets/src/blocks/Collapsible/scss/collapsible.scss';
 import docs from './docs.mdx';
 
 import {
@@ -20,7 +20,7 @@ export const collapsible = () => {
 }
 
 export default {
-    title: 'Gutenberg Blocks/Collapsible',
+    title: 'Components/Gutenberg Blocks/Collapsible',
     parameters: {docs: {page: docs}},
     decorators: [withKnobs],
 };
